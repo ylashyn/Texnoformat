@@ -1,0 +1,36 @@
+@import "custom";
+
+@import "bootstrap";
+
+@import "mixin";
+
+@import "reset";
+
+@import "fonts";
+
+@import "default-clases";
+
+@import "layout";
+
+@import "home-style";
+
+@import "catalog";
+
+// @import "media";
+.background-top {
+	height: 50px;
+	background: #293449;
+}
+.logo {
+	font-size:30px;
+	background: #ee3643;
+	height: 50px;
+	color: #fff;
+	& p {
+		color: #fff;
+		text-transform: uppercase;
+		vertical-align: middle;
+		text-align: center;
+		padding-top:10px;
+	}
+}
